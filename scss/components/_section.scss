@@ -1,0 +1,43 @@
+@import '../base/variables';
+@import '../base/fuentes';
+@import '../base/media';
+
+.generalContent{
+    background-color: white;
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.imageAtt{
+    width: 300px;
+    border-radius: 30%;
+    position: relative;
+    padding: 0 40px 0 40px;
+    transition-property: all;
+    transition-duration: 8s;
+    &:hover{
+        transform: scale (3);
+    }
+}
+
+.paragraphProp{
+    font-family: 'gotham';
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 0 30px;
+}
+
+/* Sección 2 */
+
+.SecundaryContent{
+    background-color: blueviolet;
+}
+
+h2{
+    font-family: 'Padouk' sans-serif;
+}
